@@ -12,6 +12,26 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.navbar li{
+display:inline-block;
+padding:10px 5px;
+
+}
+.navbar{
+  text-align: right;
+
+}
+.nav-bar-link{
+  color:red;
+  text-decoration: none;
+}
+.nav-bar-link:hover{
+  color:yellowgreen;
+
+}
+.navbar .active{
+  color:blue;
+}
 
 .App-header {
   background-color: #282c34;
